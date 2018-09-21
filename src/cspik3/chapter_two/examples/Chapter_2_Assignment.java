@@ -60,12 +60,9 @@ public class Chapter_2_Assignment {
 		// Average Speed in Miles
 		out.println("A runner runs at 14 kilometers in 45 minutes and 30 seconds.");
 		double kilo = 14;
-		double miles = kilo/1.6;
-		double mp45 = (miles*45.5)/14;
-		
-		
-		
-		
+		double miles_in_45 = kilo/1.6;				// amount of miles runner is going in 45.5 minutes
+		double miles_in_hour = miles_in_45 * (45.5/60);		// amount of miles runner is going in 1 hour
+		out.println("He is going " + miles_in_hour + " mph.");	
 		
 	}
 
